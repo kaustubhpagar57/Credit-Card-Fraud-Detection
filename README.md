@@ -1,3 +1,5 @@
 # Credit-Card-Fraud-Detection
 
+With an increase in the number of credit card transactions, there has been a significant growth in the number of fraudulent transactions, which is a worrying issue for both the banks and the customers. Thus, detection of these fraud transactions has become a necessity for all banks to minimize their losses. This classification problem puts forward a major hurdle- the credit card dataset is highly imbalanced which means the classes are not equally divided and one of the classes is significantly greater than the others. In our case, the number of fraudulent transactions is significantly smaller than the legitimate ones which make it difficult to classify them. In this project, we apply the SMOTE oversampling technique and Undersampling to balance the data to make the classification process feasible. Further, we apply various classification models, like Logistic Regression, KNN, Decision Tree, Random Forest, AdaBoost, XGBoost, ANN so on.
+
 Note: Please download the Training Data CSV from the Release v1.0.0. The file is named X_train_SMOTE.csv. Keep the jupyter notebook and the 4 csv files in the same folder before running the ipynb.
